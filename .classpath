@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="Bridge"/>
 	<classpathentry kind="src" path="Composite"/>
 	<classpathentry kind="src" path="Decorator"/>
+	<classpathentry kind="src" path="Facade"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
