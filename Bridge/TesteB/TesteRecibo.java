@@ -12,11 +12,7 @@ public class TesteRecibo {
 		Recibo recibo = new Recibo("Serpro ", "Paulo Henrique Rodrigues ", 777777, geradorDeArquivoTXT);
 		recibo.geraArquivo();
 		
-		// Ler Recibos;
-		String diretorio = "arquivo.txt";
-		List <String> lista = new ArrayList<>();
-		FileRead read = new FileRead();
-		read.Read(diretorio, lista);
+	
 	}
 
 }

@@ -17,5 +17,4 @@ public class PedidoFacade {
 		this.financeiro.fatura(p.getCliente(), p.getNotaFiscal());
 		this.posVenda.agendaContato(p.getCliente(), p.getProduto());
 	}
-
 }

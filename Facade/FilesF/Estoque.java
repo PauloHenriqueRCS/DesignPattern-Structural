@@ -5,7 +5,7 @@ import java.util.Calendar;
 
 public class Estoque {
 
-	public void enviaProduto(String produto, String enderecoDeEntrega, Object object) {
+	public void enviaProduto(String produto, String enderecoDeEntrega, String notaFiscal) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.add(Calendar.DATE, 2);
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");

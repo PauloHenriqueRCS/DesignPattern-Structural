@@ -9,7 +9,7 @@ public class TestePedidoFacade {
 		Financeiro financeiro = new Financeiro();
 		PosVenda posVenda = new PosVenda();
 		PedidoFacade facade = new PedidoFacade(estoque, financeiro, posVenda);
-		Pedido pedido = new Pedido("Notebook", "Rafael Cosentino", "Av Brigadeiro Faria Lima, 1571, São Paulo, SP");
+		Pedido pedido = new Pedido("Notebook ASUS", "Paulo Henrique Rodrigues", "Av.Afonso Pena, 1571, Belo Horizonte, MG", "0001");
 		facade.registraPedido(pedido);
 	}
 
